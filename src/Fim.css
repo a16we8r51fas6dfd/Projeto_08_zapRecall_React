@@ -1,0 +1,41 @@
+.mensagem {
+    height: 100vh;
+    width: 100vw;
+
+    display: flex;
+    gap: 16px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.mensagem h1 {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.mensagem p {
+    font-size: 22px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.mensagem button {
+    display: flex;
+    gap: 4px;
+    align-items: center;
+    justify-content: center;
+
+    height: 72px;
+    width: 322px;
+
+    background-color: #FFFFFF;
+
+    border: 3px solid #FFEF61;
+    box-sizing: border-box;
+    border-radius: 12px;
+
+    font-size: 20px;
+    font-weight: bold;
+    color: #000000;
+}
